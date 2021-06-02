@@ -11,6 +11,8 @@
 		85A41DC726674CEE004EAADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A41DC626674CEE004EAADA /* ContentView.swift */; };
 		85A41DC926674CF2004EAADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A41DC826674CF2004EAADA /* Assets.xcassets */; };
 		85A41DCC26674CF2004EAADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A41DCB26674CF2004EAADA /* Preview Assets.xcassets */; };
+		85A41DD426674D1D004EAADA /* MinuteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A41DD326674D1D004EAADA /* MinuteModel.swift */; };
+		85A41DD626674D2F004EAADA /* MinutesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A41DD526674D2F004EAADA /* MinutesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		85A41DC826674CF2004EAADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85A41DCB26674CF2004EAADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85A41DCD26674CF2004EAADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A41DD326674D1D004EAADA /* MinuteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteModel.swift; sourceTree = "<group>"; };
+		85A41DD526674D2F004EAADA /* MinutesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				85A41DC426674CEE004EAADA /* DemoObservableApp.swift */,
 				85A41DC626674CEE004EAADA /* ContentView.swift */,
+				85A41DD326674D1D004EAADA /* MinuteModel.swift */,
+				85A41DD526674D2F004EAADA /* MinutesController.swift */,
 				85A41DC826674CF2004EAADA /* Assets.xcassets */,
 				85A41DCD26674CF2004EAADA /* Info.plist */,
 				85A41DCA26674CF2004EAADA /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				85A41DC726674CEE004EAADA /* ContentView.swift in Sources */,
 				85A41DC526674CEE004EAADA /* DemoObservableApp.swift in Sources */,
+				85A41DD426674D1D004EAADA /* MinuteModel.swift in Sources */,
+				85A41DD626674D2F004EAADA /* MinutesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

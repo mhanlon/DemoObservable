@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var minutesController = MinutesController()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 20) {
+            
+            Text("Hello, \(minutesController.currentValue)")
+            Button("Start Timer") {
+                self.minutesController.startTimer()
+            }
+        }
     }
 }
 
